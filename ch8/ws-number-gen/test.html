@@ -1,0 +1,14 @@
+<script>
+    var ws = new WebSocket("ws://localhost:8000/test")
+    ws.onmessage = event => {
+        var number = document.getElementById("number")
+        number.innerHTML = event.data
+    }
+    handleOnClick = () => {
+        ws.send("Hi WebSocket Server")
+    }
+</script>
+<h3>Streming numbers appear here</h3>
+
+<div id="number"></div>
+<button onclick="handleOnClick()">Click Me</button>

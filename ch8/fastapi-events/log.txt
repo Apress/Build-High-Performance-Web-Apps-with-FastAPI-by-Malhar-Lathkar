@@ -1,0 +1,6 @@
+Application startup at 2022-12-19 00:08:32.585333
+Application shutdown at 2022-12-19 00:08:39.265137
+Application startup at 2022-12-19 00:10:52.897333
+Application shutdown at 2022-12-19 00:10:56.547798
+Application startup at 2022-12-19 00:10:59.339709
+Application shutdown at 2022-12-19 00:11:01.776408
