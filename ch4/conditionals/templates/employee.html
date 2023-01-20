@@ -1,0 +1,12 @@
+<html>
+	<body>
+		<h1>Employee Details</h1>
+		<h2>Name: {{ data.get('name') }} </h2>
+		<h2>Salary: {{ data.get('salary') }}</h2>
+		{% if data.get('salary')>=25000 %}
+		<h2>Income Tax : {{ data.get('salary')*0.10 }}</h2>
+		{% else %}
+		<h2>Income Tax : Not applicable</h2>
+		{% endif %}
+	</body>
+</html>
