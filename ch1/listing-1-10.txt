@@ -1,0 +1,15 @@
+>>> #This is a normal function
+>>> def hello():
+	print ("Hello World")
+>>> #This is a coroutine
+>>> async def sayhello():
+	print ("Hello Python")
+
+>>> hello()
+Hello World
+>>> sayhello()
+<coroutine object sayhello at 0x0000015CC0295DB0>
+
+>>> import asyncio
+>>> asyncio.run(sayhello())
+Hello Python

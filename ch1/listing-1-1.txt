@@ -1,0 +1,13 @@
+>>> x=10
+>>> #x is an int variable
+>>> x=[1,2,3]
+>>> type(x)
+<class 'list'>
+>>> x=[1,2,3]
+>>> #x is now a list
+>>> type(x)
+<class 'list'>
+>>> x="Hello World"
+>>> #x now becomes a str variable
+>>> type(x)
+<class 'str'>
