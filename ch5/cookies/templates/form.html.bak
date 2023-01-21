@@ -1,0 +1,14 @@
+<html>
+<body>
+{% if user %}
+<h3>You are logged in as {{ user }}</h3>
+<hr>
+<form action="/setcookie" method="POST">
+<h3>User ID</h3>
+<p><input type="text" name="user"></p>
+<h3>Password</h3>
+<p><input type="password" name="pwd"></p>
+<h3><input type="submit" name="submit"></p>
+</form>
+</body>
+</html>
